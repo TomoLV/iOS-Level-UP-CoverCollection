@@ -30,6 +30,6 @@ class CoverCollectionViewLayoutAttributes: UICollectionViewLayoutAttributes {
     override func copy() -> Any {
         let copy = super.copy() as? CoverCollectionViewLayoutAttributes
         copy?.backgroundColor = self.backgroundColor
-        return copy
+        return copy as Any
     }
 }
